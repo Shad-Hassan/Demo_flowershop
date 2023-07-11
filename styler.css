@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bannerpage {
+    position: absolute;
+    width: 100%;
+    height: 850px;
+    left: 0px;
+    top: 0px;
+    background: rgba(229, 84, 115, 0.1);
+    background-image: url('Assets/pngwing 10.png');
+    background-repeat: no-repeat;
+    background-position: right 50px top 50px;
+}
+
+#bannertext {
+    position: absolute;
+    width: 708px;
+    height: 288px;
+    left: 240px;
+    top: 197px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 96px;
+    text-align: left;
+    color: #272727;
+}
+
+#paragraph1 {
+    position: absolute;
+    width: 708px;
+    height: 288px;
+    left: 240px;
+    top: 500px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.6);
+}
+.button1 {
+    /* Frame 1 */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 43px;
+    gap: 10px;
+
+    position: absolute;
+    width: 180px; /* Adjust the width as needed */
+    height: 64px;
+    left: 240px;
+    top: 639px;
+
+    background: #E55473;
+    border-radius: 8px;
+
+    /* Shop Now */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Hot Deal ! Sale Up To 25% Off */
+.hotdeals{
+    position: absolute;
+    width: 100%;
+    height: 850px;
+    left: 0px;
+    top: 850px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #272727;
+    background: rgba(231, 230, 231, 0.756);
+    background-image: url('Assets/pngwing\ 8.png');
+    background-repeat: no-repeat;
+    background-position: right 40px top 50px;
+
+
+
+}
+
+#dealtext{
+    /* Hot Deal ! Sale Up To 25% Off */
+
+position: absolute;
+width: 537px;
+height: 48px;
+left: calc(50% - 537px/2 - 270.5px);
+top: 200px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.pinkmark
+{
+    /* Hot Deal ! Sale Up To 25% Off */
+
+position: absolute;
+width: 537px;
+height: 48px;
+left: 470px;
+top: 0px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+
+color: #E55473;
+}
+
+.paragraph2{
+    position: absolute;
+    width: 500px;
+    height: 48px;
+    left: 450px;
+    top: 300px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.6); 
+}
+
+.button2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 43px;
+    gap: 10px;
+
+    position: absolute;
+    width: 180px; /* Adjust the width as needed */
+    height: 64px;
+    left: 600px;
+    top: 400px;
+
+    background: #E55473;
+    border-radius: 8px;
+
+    /* Shop Now */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #ffffff;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+   
+.ig1{
+    /* Instagram */
+
+position: absolute;
+width: 180px;
+height: 48px;
+left: calc(50% - 180px/2);
+top: 2000px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+text-align: center;
+
+color: #272727;
+
+
+}
+
+.paragraph3{
+    position: absolute;
+    width: 500px;
+    height: 48px;
+    left: 750px;
+    top: 2100px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.6); 
+}
+.instalay{
+    display: flex;
+    justify-content: center;
+    margin-top: 2130px;
+    
+}
+
+.instalay img:not(:first-child) {
+    margin-left: 30px; /* Adjust the margin-left value as needed */
+}
+.Dealer{
+/* Get The Latest Deals */
+
+position: absolute;
+width: 373px;
+height: 48px;
+left: calc(50% - 373px/2 - 0.5px);
+top: 3963px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+text-align: center;
+
+color: #272727;
+
+
+}
+.Greed{
+    /* Rectangle 9 */
+
+position: absolute;
+width: 1440px;
+height: 449px;
+left: 200px;
+top: 2900px;
+
+background: url(Assets/Coupon.png);
+border-radius: 8px;
+
+}
+.Dealer{
+    /* Get The Latest Deals */
+
+position: absolute;
+width: 373px;
+height: 48px;
+left: calc(50% - 373px/2 - 0.5px);
+top: 200px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+text-align: center;
+
+color: #272727;
+
+
+}
+.Coupon{
+    /* $30 coupon for first shopping */
+
+    position: absolute;
+    width: 373px;
+    height: 48px;
+    left: calc(50% - 373px/2 - 0.5px);
+    top: 250px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 48px;
+    /* identical to box height */
+    text-align: center;
+    
+    color: darkslategrey;
+
+
+}
+
+.mailbox{
+    /* Rectangle 10 */
+
+position: absolute;
+width: 700px;
+height: 64px;
+left: 380px;
+top: 300px;
+
+background: #FFFFFF;
+border-radius: 8px;
+
+}
+.lastbutton{
+    /* Rectangle 11 */
+
+position: absolute;
+width: 150px;
+height: 64px;
+left: 1100px;
+top: 300px;
+
+background: #E55473;
+border-radius: 8px;
+color: white;
+
+}
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    top: 3400px;
+}
+#fulerdokan{
+    /* Rectangle 7 */
+
+position: absolute;
+width: 1922px;
+height: 500px;
+left: -2px;
+top: 3400px;
+font-size: 50px;
+
+background: #111010;
+
+}
+.Golapi{
+    color: pink;
+}
+#lastline{
+    /* Rectangle 7 */
+
+position: absolute;
+width: 1922px;
+height: 449px;
+left: -2px;
+top: 3500px;
+
+background: #111010;
+font-size: 24px;
+}
+#Copyright{
+    position: absolute;
+width: 1922px;
+height: 449px;
+left: -2px;
+top: 3600px;
+
+background: #111010;
+font-size: 24px;
+}
